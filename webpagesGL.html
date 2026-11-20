@@ -7,14 +7,13 @@
 -Assignment: webpages
 -Description: about me webpage
     -->
-
+<html lang="en-US">
     <head>
-        <meta charset="UTF-8" />
+        <meta charset="utf-8" />
         <title>About Claire Heard</title>
         <link href="webpagesGL.css" rel="stylesheet" type="text/css" />
     </head>
-    
-    <body style="background-color: aquamarine;">
+    <body style="background-color: #008473;">
         <!--Here is our welcome message -->
         <header>
             <h2>Welcome to my about me page!</h2>
@@ -22,11 +21,14 @@
 
         <hr />
 
-        <!-- A photo I like -->
-         <img src="123_1.jpeg" alt*="A photo of me"
+        <!-- A photo I like, styled by our CSS stylesheet -->
+         <img src="123_1.jpeg" alt*="A photo of me" id="photo-resize"
 
-     <p>Hi my name is Claire Heard. I like to walk through the <strong>resident buildings</strong> and <em>wolf plaza</em>.</p>
+         <!-- This is a path I like to take through NCSUs campus-->
+         <p>Hi my name is Claire Heard. I like to walk through the <strong>resident buildings</strong> and <em>wolf plaza</em> on my way to classes because it is the fastest way and because I might see some of my friends.</p>
+     
 
+         <!-- TThis paragraph is demonstrating some more styling tages in HTML-->
      <p>
         C<sub>8</sub>H<sub>10</sub>N<sub>4</sub>0<sub>2</sub> is my favorite <del>element</del> <ins>chemical</ins>formula. E=mc<sup>2</sup> is my favorite equation.
      </p>
@@ -34,6 +36,7 @@
      <br />
      <br />
 
+     <!-- This is my unordered list-->
      <h4> A list of my favorite things</h4>
 
      <ul>
@@ -46,12 +49,14 @@
 
      <br />
 
-    </table>
+<!-- This is a table that is styled by our CSS stylesheet -->
+    </table class="table-border">
     <tr><th>Name</th><th>Characteristics</th></tr>
     <tr><td>Loralie</td> <td>guard extrordanare</td></tr>
     <tr><td>Cecile</td><td>tenor saxy</td></tr>
     </table>
 
+    <!-- This link will open in a new tab when clicked -->
 <a href="https://wolfware.ncsu.edu" target="blank">Moodle</a>
 
     </body>
